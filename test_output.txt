@@ -1,0 +1,181 @@
+Processing !xxxx!
+ID: (q0, !xxxx!, Z)
+ID: (q1, xxxx!, !Z)
+ID: (q1, xxx!, !Z)
+ID: (q1, xx!, !Z)
+ID: (q1, x!, !Z)
+ID: (q1, !, !Z)
+ID: (q2, E, Z)
+q2 is a final state.
+!xxxx! is valid and has balanced brackets.
+
+Processing !<xx>!
+ID: (q0, !<xx>!, Z)
+ID: (q1, <xx>!, !Z)
+ID: (q1, xx>!, <!Z)
+ID: (q1, x>!, <!Z)
+ID: (q1, >!, <!Z)
+ID: (q1, !, !Z)
+ID: (q2, E, Z)
+q2 is a final state.
+!<xx>! is valid and has balanced brackets.
+
+Processing !{xx}!
+ID: (q0, !{xx}!, Z)
+ID: (q1, {xx}!, !Z)
+ID: (q1, xx}!, {!Z)
+ID: (q1, x}!, {!Z)
+ID: (q1, }!, {!Z)
+ID: (q1, !, !Z)
+ID: (q2, E, Z)
+q2 is a final state.
+!{xx}! is valid and has balanced brackets.
+
+Processing ![xx]!
+ID: (q0, ![xx]!, Z)
+ID: (q1, [xx]!, !Z)
+ID: (q1, xx]!, [!Z)
+ID: (q1, x]!, [!Z)
+ID: (q1, ]!, [!Z)
+ID: (q1, !, !Z)
+ID: (q2, E, Z)
+q2 is a final state.
+![xx]! is valid and has balanced brackets.
+
+Processing !(xxx)!
+ID: (q0, !(xxx)!, Z)
+ID: (q1, (xxx)!, !Z)
+ID: (q1, xxx)!, (!Z)
+ID: (q1, xx)!, (!Z)
+ID: (q1, x)!, (!Z)
+ID: (q1, )!, (!Z)
+ID: (q1, !, !Z)
+ID: (q2, E, Z)
+q2 is a final state.
+!(xxx)! is valid and has balanced brackets.
+
+Processing !()!
+ID: (q0, !()!, Z)
+ID: (q1, ()!, !Z)
+ID: (q1, )!, (!Z)
+ID: (q1, !, !Z)
+ID: (q2, E, Z)
+q2 is a final state.
+!()! is valid and has balanced brackets.
+
+Processing !<{x}>!
+ID: (q0, !<{x}>!, Z)
+ID: (q1, <{x}>!, !Z)
+ID: (q1, {x}>!, <!Z)
+ID: (q1, x}>!, {<!Z)
+ID: (q1, }>!, {<!Z)
+ID: (q1, >!, <!Z)
+ID: (q1, !, !Z)
+ID: (q2, E, Z)
+q2 is a final state.
+!<{x}>! is valid and has balanced brackets.
+
+Processing !({x})!
+ID: (q0, !({x})!, Z)
+ID: (q1, ({x})!, !Z)
+ID: (q1, {x})!, (!Z)
+ID: (q1, x})!, {(!Z)
+ID: (q1, })!, {(!Z)
+ID: (q1, )!, (!Z)
+ID: (q1, !, !Z)
+ID: (q2, E, Z)
+q2 is a final state.
+!({x})! is valid and has balanced brackets.
+
+Processing !x[x]x!
+ID: (q0, !x[x]x!, Z)
+ID: (q1, x[x]x!, !Z)
+ID: (q1, [x]x!, !Z)
+ID: (q1, x]x!, [!Z)
+ID: (q1, ]x!, [!Z)
+ID: (q1, x!, !Z)
+ID: (q1, !, !Z)
+ID: (q2, E, Z)
+q2 is a final state.
+!x[x]x! is valid and has balanced brackets.
+
+Processing !{<x>}!
+ID: (q0, !{<x>}!, Z)
+ID: (q1, {<x>}!, !Z)
+ID: (q1, <x>}!, {!Z)
+ID: (q1, x>}!, <{!Z)
+ID: (q1, >}!, <{!Z)
+ID: (q1, }!, {!Z)
+ID: (q1, !, !Z)
+ID: (q2, E, Z)
+q2 is a final state.
+!{<x>}! is valid and has balanced brackets.
+
+Processing ![<x>]!
+ID: (q0, ![<x>]!, Z)
+ID: (q1, [<x>]!, !Z)
+ID: (q1, <x>]!, [!Z)
+ID: (q1, x>]!, <[!Z)
+ID: (q1, >]!, <[!Z)
+ID: (q1, ]!, [!Z)
+ID: (q1, !, !Z)
+ID: (q2, E, Z)
+q2 is a final state.
+![<x>]! is valid and has balanced brackets.
+
+Processing !((x))!
+ID: (q0, !((x))!, Z)
+ID: (q1, ((x))!, !Z)
+ID: (q1, (x))!, (!Z)
+ID: (q1, x))!, ((!Z)
+ID: (q1, ))!, ((!Z)
+ID: (q1, )!, (!Z)
+ID: (q1, !, !Z)
+ID: (q2, E, Z)
+q2 is a final state.
+!((x))! is valid and has balanced brackets.
+
+Processing !!
+ID: (q0, !!, Z)
+ID: (q1, !, !Z)
+ID: (q2, E, Z)
+q2 is a final state.
+!! is valid and has balanced brackets.
+
+Processing !x<x>
+ID: (q0, !x<x>, Z)
+ID: (q1, x<x>, !Z)
+ID: (q1, <x>, !Z)
+ID: (q1, x>, <!Z)
+ID: (q1, >, <!Z)
+ID: (q1, E, !Z)
+Invalid string. q1 is not a final state.
+
+Processing x<x>!
+ID: (q0, x<x>!, Z)
+Invalid string. Failed at position 1.
+Remaining unprocessed input string: x<x>!
+
+Processing !<a>!
+ID: (q0, !<a>!, Z)
+ID: (q1, <a>!, !Z)
+ID: (q1, a>!, <!Z)
+Invalid string. Failed at position 3.
+Remaining unprocessed input string: a>!
+
+!xxxx! - Resulting number of x's: 4
+!<xx>! - Resulting number of x's: 4
+!{xx}! - Resulting number of x's: 3
+![xx]! - Resulting number of x's: 0
+!(xxx)! - Resulting number of x's: 2
+!()! - Resulting number of x's: 0
+!<{x}>! - Resulting number of x's: 4
+!({x})! - Resulting number of x's: 1
+!x[x]x! - Resulting number of x's: 2
+!{<x>}! - Resulting number of x's: 3
+![<x>]! - Resulting number of x's: 0
+!((x))! - Resulting number of x's: 0
+!! - Resulting number of x's: 0
+!x<x> - Invalid string.
+x<x>! - Invalid string.
+!<a>! - Invalid string.
